@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\R5T.D0080.Base\R5T.D0080.Base.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Code\Services\Implementations\" />
+  </ItemGroup>
+
+</Project>
