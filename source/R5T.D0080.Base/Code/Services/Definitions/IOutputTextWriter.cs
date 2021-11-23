@@ -1,9 +1,12 @@
 ﻿using System;
 
+using R5T.T0064;
+
 
 namespace R5T.D0080
 {
-    public interface IOutputTextWriter
+    [ServiceDefinitionMarker]
+    public interface IOutputTextWriter : IServiceDefinition
     {
         void Write(string text);
     }
